@@ -109,8 +109,8 @@ void initDataListSV(List& dsSV)
     pushBack(dsSV, initNode(sv6));
     pushBack(dsSV, initNode(sv7));
     pushBack(dsSV, initNode(sv8));
-
-    return;
+    
+    return 8;
 }
 
 void printListSV(List l)
